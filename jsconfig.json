@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowUmdGlobalAccess": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@views/*": ["src/views/*"],
+      "@routes/*": ["src/routes/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
