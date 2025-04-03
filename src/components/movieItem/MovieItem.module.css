@@ -1,0 +1,27 @@
+.movie {
+    background: white;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+div img {
+    width: 300px;
+    height: auto;
+}
+
+.detailsBtn {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.detailsBtn:hover {
+    background-color: lightblue;
+}
